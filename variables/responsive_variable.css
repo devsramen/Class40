@@ -1,0 +1,47 @@
+:root{
+    /* ========== Font Size ========== */
+    --ResFontSiz_1: 14px;
+    --fontSiz_2: 24px;
+    --fontSiz_3: 12px;
+    --fontSiz_4: 35px;
+    --fontSiz_5: 16px;
+
+    
+    /* ========== Font Weight ========== */
+    --fontWeight_1: 100;
+    --fontWeight_2: 200;
+    --fontWeight_3: 300;
+    --fontWeight_4: 400;
+    --fontWeight_5: 500;
+    --fontWeight_6: 600;
+    --fontWeight_7: 700;
+    --fontWeight_8: 800;
+    --fontWeight_9: 900;
+    
+    
+    
+    /* ========== Line Height ========== */
+    --primaryLineHeight: 0.80;
+    --lineHeight_1: 1.00;
+    --lineHeight_2: ;
+    
+    
+    
+    
+    /* ========== Color ========== */
+    /* #222222 */
+    --color_1: rgb(34, 34, 34, 1);
+
+    /* #999999 */
+    --color_2: rgb(153, 153, 153, 1);
+    
+    /* #ffffff */
+    --color_3: rgb(255, 255, 255, 1);
+    
+    /* #e64009 */
+    --color_4: rgba(230, 64, 9, 1);
+    
+    /* #000000 */
+    --color_5: rgba(0, 0, 0, 1);
+
+}

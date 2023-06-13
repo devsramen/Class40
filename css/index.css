@@ -1,0 +1,449 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+  line-height: 0.8;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.commonBtn {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_3);
+  background-color: transparent;
+  border: 1px solid var(--color_3);
+  text-transform: capitalize;
+  padding: 25px 45px;
+  transition: all linear 0.3s;
+}
+
+.commonBtn:hover {
+  cursor: pointer;
+  border: 1px solid var(--color_4);
+  background-color: var(--color_4);
+}
+
+.commonPara {
+  font-size: var(--fontSiz_10);
+  font-weight: var(--fontWeight_4);
+  line-height: var(--lineHeight_4);
+  color: var(--color_9);
+}
+
+#nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100000;
+}
+#nav .navTop {
+  background-color: var(--color_1);
+  padding: 30px 0;
+}
+#nav .navTop .NavIcon i {
+  font-size: 30px;
+}
+#nav .navTop .navAddSubTitle, #nav .navTop .navPhoenText {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_4);
+  color: var(--color_2);
+}
+#nav .navTop .navAddTitle, #nav .navTop .navPhoenNum {
+  font-size: var(--fontSiz_2);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_3);
+}
+#nav .navTop .navLogoSubTitile {
+  font-size: var(--fontSiz_3);
+  font-weight: var(--fontWeight_4);
+  color: var(--color_2);
+}
+#nav .navTop .navLogoTitile {
+  font-size: var(--fontSiz_4);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_3);
+}
+#nav .navTop .phoneIcon i {
+  font-size: 30px;
+}
+#nav .nav-link {
+  font-size: var(--fontSiz_5);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_2);
+  text-transform: capitalize;
+}
+#nav .navbar-nav {
+  -moz-column-gap: 60px;
+       column-gap: 60px;
+}
+#nav .form-control:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+#nav .navUserIcon {
+  font-size: 30px;
+  margin-left: 15px;
+  color: var(--color_2);
+}
+#nav .nav-link:focus, #nav .nav-link:hover {
+  color: var(--color_1);
+}
+
+.bannerHead {
+  position: relative;
+}
+
+.bannerHead::after {
+  content: "\f061";
+  font-family: "FontAwesome";
+  font-size: var(--fontSiz_6);
+  font-weight: var(--fontWeight_9);
+  color: var(--color_3);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: all linear 0.3s;
+  padding: 30px;
+}
+
+.bannerHead:hover::after {
+  cursor: pointer;
+  background-color: var(--color_4);
+}
+
+.leftArrow::before {
+  content: "\f060";
+  font-family: "FontAwesome";
+  font-size: var(--fontSiz_6);
+  font-weight: var(--fontWeight_9);
+  color: var(--color_3);
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transition: all linear 0.3s;
+  padding: 30px;
+}
+
+.leftArrow:hover::before {
+  background-color: var(--color_4);
+  cursor: pointer;
+}
+
+#banner {
+  padding: 400px 0 228px 0;
+  background-color: var(--color_5);
+}
+#banner .bannerSubTitle {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_4);
+  color: var(--color_6);
+  text-transform: capitalize;
+}
+#banner .bannerTitle {
+  font-size: var(--fontSiz_8);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_3);
+  line-height: var(--lineHeight_2);
+  text-transform: capitalize;
+}
+
+#about {
+  margin: 120px 0;
+  border: 1px dotted red;
+}
+#about .aboutImageBox {
+  width: 400px;
+  height: 515px;
+  background-color: var(--color_2);
+}
+#about .aboutImageBorder {
+  position: absolute;
+  left: 25px;
+  top: 40px;
+  z-index: 1;
+}
+#about .aboutImgCard {
+  width: 300px;
+  height: 120px;
+  background-color: var(--color_3);
+  position: absolute;
+  left: 240px;
+  top: 40px;
+  z-index: 3;
+  padding-left: 5%;
+  box-shadow: 0px 1px 14px 1px rgba(0, 0, 0, 0.1);
+}
+#about .aboutImgCard .abouCardCircle {
+  width: 70px;
+  height: 70px;
+  background-color: var(--color_7);
+  border-radius: 50%;
+}
+#about .aboutImgCard .aboutCardContent .aboutCardName {
+  font-size: var(--fontSiz_6);
+  font-weight: var(--fontWeight_7);
+  color: var(--color_1);
+}
+#about .aboutImgCard .aboutCardContent .aboutCardDeg {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_3);
+  color: var(--color_4);
+}
+#about .aboutSubTitle {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_4);
+  line-height: var(--lineHeight_1);
+  color: var(--color_4);
+  text-transform: capitalize;
+  margin-top: 10px;
+  position: relative;
+}
+#about .aboutSubTitle::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: var(--color_8);
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#about .aboutTitle {
+  font-size: var(--fontSiz_9);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_2);
+  color: var(--color_1);
+}
+#about .commonPara {
+  padding-right: 75px;
+  margin: 40px 0;
+}
+#about .navsTabs {
+  height: 200px;
+}
+#about .navsTabs .nav-tabs .nav-item.show .nav-link, #about .navsTabs .nav-tabs .nav-link.active {
+  color: var(--color_1);
+  font-weight: var(--fontWeight_7);
+}
+#about .navsTabs .nav-tabs .nav-link {
+  color: var(--color_10);
+}
+#about .navsTabs .tab-content > .active {
+  text-align: justify;
+}
+#about .navsTabs div#myTabContent {
+  margin-bottom: 65px;
+}
+#about .commonBtn {
+  color: var(--color_5);
+  border: 1px solid var(--color_5);
+}
+
+#services {
+  padding-top: 120px;
+}
+#services .serCardWrapper {
+  padding: 70px;
+}
+#services .serCardWrapper .serCardImageBox {
+  padding-left: 75px;
+}
+#services .serCardWrapper .serCardBodyImageBox {
+  width: 25%;
+}
+#services .serCardWrapper .serCardBtn {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_4);
+  line-height: var(--lineHeight_3);
+  color: var(--color_2);
+  text-transform: capitalize;
+  text-decoration: underline;
+  display: block;
+  margin-top: 30px;
+}
+#services .serCardWrrBg {
+  background-color: var(--color_4);
+}
+#services .serCardWrrBg .serCardBody .serCardBodyTextTitle {
+  color: var(--color_3);
+}
+#services .serCardWrrBg .serCardBody .commonPara {
+  color: var(--color_12);
+}
+#services .serCardWrrBg .serCardBody .serCardBtn {
+  color: var(--color_12);
+}
+#services .serCardWarrBlack {
+  background-color: var(--color_1);
+}
+#services .serBgW {
+  background-color: var(--color_3);
+}
+#services .boxShadow {
+  box-shadow: -5px 5px 8px -1px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: -5px 5px 8px -1px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: -5px 5px 8px -1px rgba(0, 0, 0, 0.05);
+}
+
+#users {
+  border: 1px dotted red;
+  position: relative;
+}
+#users .userBg {
+  width: 100%;
+  background-color: var(--color_13);
+  padding: 190px 0 120px 0;
+  position: absolute;
+  left: 0;
+  top: -70px;
+  z-index: -10;
+}
+
+#video {
+  background-color: var(--color_5);
+  padding: 120px 0 200px 0;
+  margin-top: 280px;
+}
+#video .videoSubTitle {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_1);
+  color: var(--color_4);
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 70px;
+  position: relative;
+}
+#video .videoSubTitle::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: var(--color_4);
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#video .videoTitle {
+  font-size: var(--fontSiz_9);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_2);
+  color: var(--color_3);
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+#video .commonPara {
+  color: var(--color_11);
+  margin-bottom: 40px;
+}
+#video .videoTextItem {
+  font-size: var(--fontSiz_10);
+  font-weight: var(--fontWeight_4);
+  line-height: var(--lineHeight_4);
+  color: var(--color_3);
+}
+#video .videoBtn {
+  margin-top: 80px;
+  text-align: right;
+}
+#video .commonBtn {
+  font-size: 25px;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+#hWork {
+  padding: 120px 0;
+}
+#hWork .cardWrapper {
+  background-color: var(--color_14);
+  padding: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.09);
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.09);
+  transition: all linear 0.3s;
+}
+#hWork .hWorkCardTitle {
+  font-size: var(--fontSiz_6);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_1);
+  color: var(--color_1);
+  margin-top: 30px;
+  transition: all linear 0.3s;
+}
+#hWork .commonPara {
+  margin-top: 25px;
+  transition: all linear 0.3s;
+}
+#hWork .cardWrapper:hover {
+  background-color: var(--color_4);
+}
+#hWork .cardWrapper:hover .hWorkCardTitle {
+  color: var(--color_3);
+}
+#hWork .cardWrapper:hover .commonPara {
+  color: var(--color_3);
+}
+#hWork .hWorkSubTitle {
+  font-size: var(--fontSiz_1);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_1);
+  color: var(--color_4);
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 70px;
+  position: relative;
+}
+#hWork .hWorkSubTitle::before {
+  content: "";
+  width: 60px;
+  height: 2px;
+  background-color: var(--color_4);
+  position: absolute;
+  left: -70px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#hWork .hWorkTitle {
+  font-size: var(--fontSiz_9);
+  font-weight: var(--fontWeight_7);
+  line-height: var(--lineHeight_2);
+  color: var(--color_5);
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+#hWork .hwRipara {
+  padding-right: 65px;
+  margin-bottom: 50px;
+}
+#hWork .commonBtn {
+  color: var(--color_5);
+  border: 1px solid var(--color_1);
+}
+
+#cliFeedback {
+  background-image: url(../images/Bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+}/*# sourceMappingURL=index.css.map */

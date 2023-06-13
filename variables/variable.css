@@ -1,0 +1,84 @@
+:root{
+    /* ========== Font Size ========== */
+    --fontSiz_1: 14px;
+    --fontSiz_2: 24px;
+    --fontSiz_3: 12px;
+    --fontSiz_4: 35px;
+    --fontSiz_5: 16px;
+    --fontSiz_6: 20px;
+    --fontSiz_7: 9px;
+    --fontSiz_8: 100px;
+    --fontSiz_9: 60px;
+    --fontSiz_10: 18px;
+
+    
+    /* ========== Font Weight ========== */
+    --fontWeight_1: 100;
+    --fontWeight_2: 200;
+    --fontWeight_3: 300;
+    --fontWeight_4: 400;
+    --fontWeight_5: 500;
+    --fontWeight_6: 600;
+    --fontWeight_7: 700;
+    --fontWeight_8: 800;
+    --fontWeight_9: 900;
+    
+    
+    
+    /* ========== Line Height ========== */
+    --primaryLineHeight: 0.80;
+    --lineHeight_1: 1.00;
+    --lineHeight_2: 1.10;
+    --lineHeight_3: 1.30;
+    --lineHeight_4: 2;
+    
+    
+    
+    
+    /* ========== Color ========== */
+    /* #222222 */
+    --color_1: rgb(34, 34, 34, 1);
+
+    /* #999999 */
+    --color_2: rgb(153, 153, 153, 1);
+    
+    /* #ffffff */
+    --color_3: rgb(255, 255, 255, 1);
+    
+    /* #e64009 */
+    --color_4: rgba(229, 68, 9, 1);
+    
+    /* #000000 */
+    --color_5: rgba(0, 0, 0, 1);
+    
+    /* #c7c7c7 */
+    --color_6: rgba(199, 199, 199, 1);
+    
+    /* #e4e4e4 */
+    --color_7: rgba(228, 228, 228, 1);
+    
+    /* #ededed */
+    --color_8:rgb(237, 237, 237, 1);
+    
+    /* #777777 */
+    --color_9: rgb(119, 119, 119, 1);
+    
+    /* #c3c3c3 */
+    --color_10: rgb(195, 195, 195, 1);
+    
+    /* #ffffff */
+    --color_11: rgb(255, 255, 255, 0.50);
+    
+    /* #ffffff */
+    --color_12: rgb(255, 255, 255, 0.70);
+    
+    /* #f4f4f4 */
+    --color_13: rgb(244, 244, 244, 1);
+    
+    --color_14: rgb(229 229 229);;
+    
+     /* #222222 */
+     --color_15: ;
+
+
+}

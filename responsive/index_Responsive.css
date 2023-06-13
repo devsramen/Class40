@@ -1,0 +1,54 @@
+@media (min-width: 0) and (max-width: 576px) {
+    /* =========== Nav Bar ================ */
+    #nav .navTop .navAddTitle, #nav .navTop .navPhoenNum {
+        font-size: var(--fontSiz_1);
+    }
+    #nav .navTop .navLogoTitile {
+        font-size: var(--fontSiz_2);
+    }
+    #nav .navTop .NavIcon i {
+        font-size: var(--fontSiz_6);
+    }
+    #nav .navTop .navAddSubTitle, #nav .navTop .navPhoenText {
+        font-size: var(--fontSiz_7);
+    }
+    #nav .navTop .navAddTitle, #nav .navTop .navPhoenNum {
+        font-size: var(--fontSiz_7);
+        margin-top: 5px;
+    }
+    #nav .navTop .navLogoSubTitile {
+        font-size: var(--fontSiz_7);
+        margin-left: 20px;
+    }
+    #nav .navTop .navLogoTitile {
+        font-size: var(--fontSiz_1);
+    }
+    #nav .navTop .phoneIcon i {
+        font-size: var(--fontSiz_6);
+    }
+    #nav .navTop .navAddSubTitle, #nav .navTop .navPhoenText {
+        font-size: var(--fontSiz_7);
+    }
+    #nav .navTop .navAddTitle, #nav .navTop .navPhoenNum {
+        font-size: var(--fontSiz_7);
+        margin-top: 5px;
+    }
+    .navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+        justify-content: end;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+
+
+
+
+
+
+
+
+    /* =========== Nav Bar ================ */
+    /* =========== Nav Bar ================ */
+    /* =========== Nav Bar ================ */
+}
